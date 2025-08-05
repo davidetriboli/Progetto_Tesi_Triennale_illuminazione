@@ -88,7 +88,20 @@ b rappresenta gli illuminamenti desiderati sulle diverse superfici.</li>
 Successivamente, per superare i limiti di Gauss-Seidel, è stato applicato l'approccio ai minimi quadrati. Questo ha permesso di determinare le potenze per 16 faretti imponendo un illuminamento desiderato differenziato su 22 superfici. La valutazione della soluzione ha mostrato che gli illuminamenti calcolati erano coerenti con quelli reali richiesti, confermando la bontà del modello numerico.
 </p>
 
+<h2>Conclusioni</h2>
 
+<p align="justify">
+Di seguito le immagini di output fondamentali del progetto, che riassumono i risultati chiave dell'analisi illuminotecnica.
+
+Grafico degli illuminamenti - Metodo ai minimi quadrati 1
+  
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/0f04f1df-ebbc-4a6b-8f9a-1356fa26be88" />
+
+Grafico degli illuminamenti - Metodo ai minimi quadrati 2
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/370b4c3a-707a-451f-a18e-0434ebb2e01c" />
+
+</p>
 <h2>Autore</h2>
 
 Davide Triboli
@@ -102,3 +115,7 @@ Co-Relatore: Ing. Eduardo Minieri
 <h2>Ringraziamenti</h2>
 
 Prof.ssa Anna Scotti: Per l’importante supporto metodologico sul metodo dei minimi quadrati, fondamentale per lo sviluppo di questa analisi.
+
+<h2>License</h2>
+
+See <a href="LICENSE.txt"> License. </a>
