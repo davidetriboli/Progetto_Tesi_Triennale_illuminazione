@@ -94,12 +94,12 @@ Successivamente, per superare i limiti di Gauss-Seidel, è stato applicato l'app
 Di seguito le immagini di output fondamentali del progetto, che riassumono i risultati chiave dell'analisi illuminotecnica.
 
 Grafico degli illuminamenti - Metodo ai minimi quadrati 1
-  
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/0f04f1df-ebbc-4a6b-8f9a-1356fa26be88" />
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/370b4c3a-707a-451f-a18e-0434ebb2e01c" />
 
 Grafico degli illuminamenti - Metodo ai minimi quadrati 2
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/370b4c3a-707a-451f-a18e-0434ebb2e01c" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/0f04f1df-ebbc-4a6b-8f9a-1356fa26be88" />
 
 </p>
 <h2>Autore</h2>
