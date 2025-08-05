@@ -118,4 +118,4 @@ Prof.ssa Anna Scotti: Per l’importante supporto metodologico sul metodo dei mi
 
 <h2>License</h2>
 
-See <a href="LICENSE.txt"> License. </a>
+See <a href="LICENSE"> License. </a>
