@@ -10,7 +10,7 @@ L'intero dimensionamento è stato reso possibile a partire da un modello 3D foto
 L'intero modello matematico è stato ideato e sviluppato in modo autonomo, senza l'ausilio di software di illuminotecnica dedicati. L'obiettivo è stato dimostrare come i principi del calcolo numerico possano essere applicati a un problema ingegneristico complesso, partendo da zero e arrivando a una soluzione valida e verificabile. Questo lavoro getta le basi per future analisi in ambito di laurea magistrale.
 </p>
 <p align="justify">
-Per un'analisi approfondita del modello numerico, della metodologia e dei contributi, fare riferimento al documento "Dettagli: Modello e Contributi".
+Per un'analisi approfondita del modello numerico, della metodologia e dei contributi, fare riferimento al documento <a href="LICENSE"> InfoDettaglio </a>
 </p>
 
 <h2>Immagini Rappresentative</h2>
