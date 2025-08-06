@@ -18,7 +18,7 @@ Per un'analisi approfondita del modello numerico, della metodologia e dei contri
 - <a href="InfoDettaglio.docx"> InfoDettaglio</a>: Documento descrittivo tecnico-metodologico.
 - <a href="LICENSE"> License</a>: Licenza d’uso del progetto.
 - <a href="README.md"> Readme</a>: Questa descrizione.
-- <a href="Dimensionamento_illuminazioneEsterna_RoccaDiSparafucile_Mantova.ipynb"> Codice </a>: Codice impiegato per il dimensionamento.
+- <a href="Dimensionamento_illuminazioneEsterna_RoccaDiSparafucile_Mantova.ipynb"> Codice</a>: Codice impiegato per il dimensionamento.
 
 <h2>Immagini Rappresentative</h2>
 
