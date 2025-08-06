@@ -13,6 +13,13 @@ L'intero modello matematico è stato ideato e sviluppato in modo autonomo, senza
 Per un'analisi approfondita del modello numerico, della metodologia e dei contributi, fare riferimento al documento <a href="InfoDettaglio.docx"> InfoDettaglio </a>
 </p>
 
+<h2>Struttura del repository</h2>
+
+- <a href="InfoDettaglio.docx"> InfoDettaglio</a>: Documento descrittivo tecnico-metodologico.
+- <a href="LICENSE"> License</a>: Licenza d’uso del progetto.
+- <a href="README.md"> Readme</a>: Questa descrizione.
+- <a href="README.md"> Readme</a>: Questa descrizione.
+
 <h2>Immagini Rappresentative</h2>
 
 <p align="justify">
