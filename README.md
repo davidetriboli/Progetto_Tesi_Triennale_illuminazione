@@ -68,8 +68,8 @@ Struttura del sistema lineare implementato.
 
 <p align="justify">
 Il dimensionamento illuminotecnico è stato risolto come un sistema lineare A
-mathbfx=
-mathbfb. La metodologia si basa su un approccio geometrico semplificato, utile per ottenere un ordine di grandezza delle potenze richieste tali da garantire un certo illuminamento imposto sulla superficie del monumento.
+x=
+b. La metodologia si basa su un approccio geometrico semplificato, utile per ottenere un ordine di grandezza delle potenze richieste tali da garantire un certo illuminamento imposto sulla superficie del monumento.
 </p>
 
 <p align="justify">
