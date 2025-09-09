@@ -87,12 +87,20 @@ Successivamente, per superare i limiti di Gauss-Seidel, è stato applicato l'app
 
 <h2>Conclusioni</h2>
 
+<p align="justify">
 Di seguito sono riportati i principali risultati ottenuti con i due metodi di calcolo delle potenze dei faretti:
 
 1. **Metodo di Gauss-Seidel (GS)**  
    - Applicato con il vettore **b1** (illuminazione uniforme su tutte le superfici).  
    - I risultati delle potenze calcolate si sono rivelati soddisfacenti: confrontando i valori con quelli dei datasheet dei faretti, cinque potenze rientrano nei range nominali previsti.  
    - [Vedi grafico 1: potenze calcolate con GS]  
+
+</p>
+
+Grafico degli illuminamenti - Metodo ai minimi quadrati 1
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/370b4c3a-707a-451f-a18e-0434ebb2e01c" />
+
+<p align="justify">
 
 2. **Metodo ai Minimi Quadrati (MQ)**  
    - Applicato con due scenari:  
@@ -101,23 +109,20 @@ Di seguito sono riportati i principali risultati ottenuti con i due metodi di ca
      - **b2 (illuminazione reale)**: le potenze calcolate risultano coerenti e fisicamente interpretabili, con valori positivi per tutti i faretti e rispettando i range nominali dei datasheet. Gli illuminamenti ottenuti sulle superfici della mesh sono vicini a quelli desiderati.  
    - [Vedi grafico 2: potenze e illuminamenti calcolati con MQ, caso reale b2]  
 
+</p>
+
+Grafico degli illuminamenti - Metodo ai minimi quadrati 2
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/0f04f1df-ebbc-4a6b-8f9a-1356fa26be88" />
+
+<p align="justify">
+
 **Conclusione:**  
 - Il metodo di **Gauss-Seidel** è efficace per verificare le potenze quando si vuole una distribuzione uniforme (vettore b1).  
 - Il metodo **ai Minimi Quadrati** fornisce risultati soddisfacenti sia in termini di potenze sia di illuminamenti quando si considera una distribuzione **reale** (vettore b2).  
 - Il confronto dei due grafici mostra chiaramente come la scelta dell’illuminazione target influisca sulla validità delle soluzioni numeriche.
 
-<p align="justify">
-Di seguito le immagini di output fondamentali del progetto, che riassumono i risultati chiave dell'analisi illuminotecnica.
-
-Grafico degli illuminamenti - Metodo ai minimi quadrati 1
-
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/370b4c3a-707a-451f-a18e-0434ebb2e01c" />
-
-Grafico degli illuminamenti - Metodo ai minimi quadrati 2
-
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/0f04f1df-ebbc-4a6b-8f9a-1356fa26be88" />
-
 </p>
+
 <h2>Autore</h2>
 
 Davide Triboli
