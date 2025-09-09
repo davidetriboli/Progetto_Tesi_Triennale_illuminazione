@@ -21,6 +21,7 @@ Questo progetto è stato sviluppato in Jupyter Notebook e può essere eseguito f
 
 ---
 
-📌 **Nota**: il notebook utilizza dati geometrici (centroidi, normali) ottenuti da fotogrammetria. Se vuoi modificare la mesh o aggiungere nuovi faretti/superfici, aggiorna i file di input e rilancia il notebook.
+📌 **Nota**: il notebook utilizza dati geometrici (centroidi, normali) ottenuti da fotogrammetria. 
+
 
 
