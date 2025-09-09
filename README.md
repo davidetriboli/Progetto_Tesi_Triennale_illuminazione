@@ -47,7 +47,7 @@ Struttura del sistema lineare implementato.
 - <b> Applicazione dei metodi numerici: </b> utilizzare il metodo di Gauss-Seidel e quello dei minimi quadrati per la risoluzione del sistema lineare. 
 
 - <b> Analisi dei risultati: </b>
-  1. ### Metodo di GS: verificare la coerenza tra le potenze calcolate e quelle presenti nel datasheet punto luce. 
+  <p style="font-size: 0.8em;"> 1. Metodo di GS: verificare la coerenza tra le potenze calcolate e quelle presenti nel datasheet punto luce.</p> 
   2. ### Metodo dei Minimi Quadrati (illuminazione uniforme): verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (uniforme).
   3. ### Metodo dei Minimi Quadrati (illuminazione reale): verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (reale).
 
