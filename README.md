@@ -52,7 +52,7 @@ Struttura del sistema lineare implementato.
   <p style="font-size: 2.5em;"> <b>   1. Metodo di GS: </b>verificare la coerenza tra le potenze calcolate e quelle presenti nel datasheet punto luce. </p> 
   <p style="font-size: 2.5em;"> <b>   2. Metodo dei Minimi Quadrati (illuminazione uniforme): </b>verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (uniforme).</p> 
   <p style="font-size: 2.5em;"> <b>   3. Metodo dei Minimi Quadrati (illuminazione reale): </b>verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (reale).</p>
-  
+</p>
 <h2>Metodologia</h2>
 
 <p align="justify">
