@@ -20,18 +20,6 @@ La repository è organizzata come segue:
 - <a href="README.md"> Readme</a>: Questa descrizione.
 - <a href="Dimensionamento_illuminazioneEsterna_RoccaDiSparafucile_Mantova.ipynb"> Codice</a>: Codice impiegato per il dimensionamento.
 - <a href="COME_ESEGUIRE.md"> COME_ESEGUIRE</a>: Guida per l'esecuzione su Colab.
-## Struttura della repository
-
-Progetto_Tesi_Triennale_illuminazione/  
-├─ README.md  
-├─ LICENSE  
-├─ docs/  
-│  └─ InfoDettaglio.docx  
-├─ assets/  
-│  ├─ modello_3d.png  
-│  └─ grafici_mq1.png  
-└─ COME_ESEGUIRE.md  
-
 
 <h2>Immagini Rappresentative</h2>
 
@@ -137,3 +125,14 @@ Prof.ssa Anna Scotti: Per l’importante supporto metodologico sul metodo dei mi
 <h2>License</h2>
 
 See <a href="LICENSE.md"> License. </a>
+
+<h2>Struttura del repository</h2>
+La repository è organizzata come segue:
+
+Progetto_Tesi_Triennale_illuminazione/
+├─ <a href="Dimensionamento_illuminazioneEsterna_RoccaDiSparafucile_Mantova.ipynb"> Codice</a>: Codice impiegato per il dimensionamento.
+├─ <a href="README.md"> Readme</a>: Questa descrizione.
+├─ <a href="LICENSE.md"> License</a>: Licenza d’uso del progetto.
+├─ Dettaglio/  
+│  └─ <a href="Dettagli_progetto.md"> Dettagli_progetto</a>: Documento descrittivo tecnico-metodologico. 
+└─ COME_ESEGUIRE.md  
