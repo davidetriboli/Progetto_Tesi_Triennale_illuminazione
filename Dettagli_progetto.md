@@ -1,6 +1,6 @@
 
 
-<h1> Questa sezione illustra i principi fisici, gli assunti matematici e le scelte implementative alla base del progetto. </h1>
+<h2> Questa sezione illustra i principi fisici, gli assunti matematici e le scelte implementative alla base del progetto. </h2>
 
 <div align="justify">
 
@@ -31,4 +31,5 @@ Il metodo per l'analisi dell'illuminamento si basa sulla necessità di mantenere
 Il metodo richiede che il numero di superfici selezionate nella mesh iniziale sia uguale al numero di faretti scelti, affinché la matrice A sia quadrata. Questo approccio numerico, pur essendo un dimensionamento basato su geometria e ottica, fornisce un ordine di grandezza delle potenze necessarie per l'illuminazione, con un'ottica di risparmio energetico. I calcoli sono resi possibili dalla scalatura del modello alle sue dimensioni reali.
 
 </div>
+
 
