@@ -1,5 +1,5 @@
 # Licenza e Diritti
-Questo repository è rilasciato sotto una doppia licenza:
+Questo repository è rilasciato sotto una tripla licenza:
 
 # Codice
 Il codice sorgente (.py, .ipynb) è rilasciato sotto la licenza [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
@@ -12,3 +12,4 @@ La documentazione, inclusi testi e spiegazioni, è rilasciata sotto la licenza C
 Le immagini del monumento presenti in questo repository sono di proprietà del Comune di Mantova e sono utilizzate esclusivamente per scopi di ricerca e studio accademico, conformemente al Regolamento del Comune di Mantova per l'uso dei beni culturali, che prevede la libera riproduzione senza scopo di lucro per tali finalità. È vietato l'uso commerciale delle immagini senza autorizzazione esplicita e si richiede la citazione della fonte in caso di utilizzo.
 
 Chiunque utilizzi materiale contenuto in questo repository è tenuto a rispettare le licenze sopra indicate.
+
