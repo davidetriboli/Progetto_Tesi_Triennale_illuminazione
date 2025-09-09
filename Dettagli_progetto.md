@@ -1,13 +1,28 @@
 
 Questa sezione illustra i principi fisici, gli assunti matematici e le scelte implementative alla base del progetto.
+
 <p style="text-align: justify;">
 1. **Principi Fisici e Modello di Illuminazione:** Il modello si basa sulla **legge di Lambert** e presuppone superfici lambertiane, che emettono luce uniformemente in tutte le direzioni. L'illuminamento **()** fornito da una sorgente puntiforme è proporzionale al coseno dell'angolo formato tra il vettore luce e la normale della superficie **),** e inversamente proporzionale al quadrato della distanza tra la sorgente e il centroide **().**
 </p>
-2. **Risoluzione del Sistema Lineare (Gauss-Seidel):** Il sistema lineare, rappresentato dalla matrice M=(D−E), viene risolto utilizzando il **metodo di Gauss-Seidel**. Per la convergenza del metodo, la matrice M deve essere non singolare, il che implica che la diagonale della matrice A associata non contenga elementi nulli. La condizione cruciale per la convergenza è che il raggio spettrale della matrice di iterazione B sia strettamente minore di 1.
-3. **Calcolo di Geometrie e Normali:** I calcoli dei centroidi e delle normali delle superfici (basati su tre punti non collineari) sono stati eseguiti in script separati. I vettori risultanti sono stati normalizzati e salvati in dizionari per un facile accesso nel codice principale.
-4. **Flusso di Lavoro con 3DF Zephyr:** Il processo richiede la ridenominazione logica dei punti di controllo esportati da 3DF Zephyr per farli corrispondere ai nomi di "faretti" e "superfici" utilizzati nel codice.
-5. **Principio di Funzionamento per il dimensionamento:** Il metodo per l'analisi dell'illuminamento si basa sulla necessità di mantenere una corrispondenza biunivoca tra faretti e superfici, garantendo che l'elemento diagonale **(i=j)** della matrice non sia mai nullo. Nuovi faretti e superfici possono essere aggiunti al modello per l'analisi, e il codice gestisce automaticamente l'aggiunta di elementi non diagonali nella matrice.
 
+<p style="text-align: justify;">
+2. **Risoluzione del Sistema Lineare (Gauss-Seidel):** Il sistema lineare, rappresentato dalla matrice M=(D−E), viene risolto utilizzando il **metodo di Gauss-Seidel**. Per la convergenza del metodo, la matrice M deve essere non singolare, il che implica che la diagonale della matrice A associata non contenga elementi nulli. La condizione cruciale per la convergenza è che il raggio spettrale della matrice di iterazione B sia strettamente minore di 1.
+</p>
+
+<p style="text-align: justify;">
+3. **Calcolo di Geometrie e Normali:** I calcoli dei centroidi e delle normali delle superfici (basati su tre punti non collineari) sono stati eseguiti in script separati. I vettori risultanti sono stati normalizzati e salvati in dizionari per un facile accesso nel codice principale.
+</p>
+
+<p style="text-align: justify;">
+4. **Flusso di Lavoro con 3DF Zephyr:** Il processo richiede la ridenominazione logica dei punti di controllo esportati da 3DF Zephyr per farli corrispondere ai nomi di "faretti" e "superfici" utilizzati nel codice.
+</p>
+
+<p style="text-align: justify;">
+5. **Principio di Funzionamento per il dimensionamento:** Il metodo per l'analisi dell'illuminamento si basa sulla necessità di mantenere una corrispondenza biunivoca tra faretti e superfici, garantendo che l'elemento diagonale **(i=j)** della matrice non sia mai nullo. Nuovi faretti e superfici possono essere aggiunti al modello per l'analisi, e il codice gestisce automaticamente l'aggiunta di elementi non diagonali nella matrice.
+</p>
+
+<p style="text-align: justify;">
 6. **Limiti ed Efficienza del Metodo Numerico:** Il metodo richiede che il numero di superfici selezionate nella mesh iniziale sia uguale al numero di faretti scelti, affinché la matrice A sia quadrata. Questo approccio numerico, pur essendo un dimensionamento basato su geometria e ottica, fornisce un ordine di grandezza delle potenze necessarie per l'illuminazione, con un'ottica di risparmio energetico. I calcoli sono resi possibili dalla scalatura del modello alle sue dimensioni reali.
+</p>
 
 
