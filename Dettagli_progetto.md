@@ -1,9 +1,9 @@
 
 Questa sezione illustra i principi fisici, gli assunti matematici e le scelte implementative alla base del progetto.
 
-<p style="text-align: justify;">
+<div style="text-align: justify;">
 1. **Principi Fisici e Modello di Illuminazione:** Il modello si basa sulla **legge di Lambert** e presuppone superfici lambertiane, che emettono luce uniformemente in tutte le direzioni. L'illuminamento **()** fornito da una sorgente puntiforme è proporzionale al coseno dell'angolo formato tra il vettore luce e la normale della superficie **),** e inversamente proporzionale al quadrato della distanza tra la sorgente e il centroide **().**
-</p>
+</div>
 
 <p style="text-align: justify;">
 2. **Risoluzione del Sistema Lineare (Gauss-Seidel):** Il sistema lineare, rappresentato dalla matrice M=(D−E), viene risolto utilizzando il **metodo di Gauss-Seidel**. Per la convergenza del metodo, la matrice M deve essere non singolare, il che implica che la diagonale della matrice A associata non contenga elementi nulli. La condizione cruciale per la convergenza è che il raggio spettrale della matrice di iterazione B sia strettamente minore di 1.
@@ -24,5 +24,6 @@ Questa sezione illustra i principi fisici, gli assunti matematici e le scelte im
 <p style="text-align: justify;">
 6. **Limiti ed Efficienza del Metodo Numerico:** Il metodo richiede che il numero di superfici selezionate nella mesh iniziale sia uguale al numero di faretti scelti, affinché la matrice A sia quadrata. Questo approccio numerico, pur essendo un dimensionamento basato su geometria e ottica, fornisce un ordine di grandezza delle potenze necessarie per l'illuminazione, con un'ottica di risparmio energetico. I calcoli sono resi possibili dalla scalatura del modello alle sue dimensioni reali.
 </p>
+
 
 
