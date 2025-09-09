@@ -1,4 +1,11 @@
-<h1>Analisi Numerica per il Dimensionamento Illuminotecnico di un Monumento Storico</h1>
+# Progetto Tesi Triennale – Analisi numerica e ottimizzazione illuminotecnica della Rocchetta di Sparafucile
+
+![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![GitHub last commit](https://img.shields.io/github/last-commit/davidetriboli/Progetto_Tesi_Triennale_illuminazione)
+
+_Last revision: 2025-09-09_
+
 
 <p align="justify">
 Questo progetto, sviluppato come parte della tesi di Laurea Triennale a carattere propedeutico, si concentra sull'implementazione di un modello numerico per lo studio dell'illuminazione artificiale esterna applicato alla conservazione e valorizzazione della Rocca di Sparafucile a Mantova.
