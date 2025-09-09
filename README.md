@@ -76,7 +76,7 @@ b2 rappresenta gli illuminamenti imposti nelle condizioni di illuminazione reale
 <h3>Metodo di Gauss-Seidel</h3>
 
 <p align="justify">
-È stato utilizzato per risolvere il sistema lineare in un primo approccio. Questo metodo è particolarmente utile quando la matrice A è sparsa. La convergenza del metodo è stata verificata assicurando che il raggio spettrale della matrice di iterazione B fosse minore di 1.
+È stato utilizzato per risolvere il sistema lineare in un primo approccio, con la seguente limitazione: il numero di superfici in cui dividere la mesh deve essere pari al numero totale di punti luce individuati. Questo metodo è particolarmente utile quando la matrice A è sparsa. La convergenza del metodo è stata verificata assicurando che il raggio spettrale della matrice di iterazione B fosse minore di 1.
 </p>
 
 <h3>Metodo dei Minimi Quadrati</h3>
