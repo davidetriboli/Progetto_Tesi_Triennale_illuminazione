@@ -42,17 +42,17 @@ Struttura del sistema lineare implementato.
 
 <p align="justify">
 
-- <b> Implementazione di un modello numerico: sviluppo di uno script in Python per stimare le potenze dei faretti necessarie a garantire un certo livello di illuminamento sulla mesh del monumento. </b>
+- <b> Implementazione di un modello numerico: </b> sviluppo di uno script in Python per stimare le potenze dei faretti necessarie a garantire un certo livello di illuminamento sulla mesh del monumento. 
 
-- <b> Applicazione dei metodi numerici: utilizzare il metodo di Gauss-Seidel e quello dei minimi quadrati per la risoluzione del sistema lineare. </b>
+- <b> Applicazione dei metodi numerici: </b> utilizzare il metodo di Gauss-Seidel e quello dei minimi quadrati per la risoluzione del sistema lineare. 
 
 - <b> Analisi dei risultati: </b>
 
-⇒ Metodo di GS: verificare la coerenza tra le potenze calcolate e quelle presenti nel datasheet punto luce.
+# Metodo di GS: verificare la coerenza tra le potenze calcolate e quelle presenti nel datasheet punto luce.
 
-⇒ Metodo dei MQ (illuminazione uniforme): verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (uniforme).
+# Metodo dei Minimi Quadrati (illuminazione uniforme): verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (uniforme).
 
-⇒ Metodo dei MQ (illuminazione reale): verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (reale).
+# Metodo dei Minimi Quadrati (illuminazione reale): verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (reale).
 
 - <b> Utilizzo di GCP: Utilizzo dei Punti di Controllo a Terra (GCP), nel sistema di riferimento locale di 3DF Zephyr, per la definizione dei perimetri e dei centroidi delle sottosuperfici in cui è stata divisa la mesh iniziale; per la definizione delle coordinate 3D e delle normali dei punti luce. Informazioni geometriche essenziali per il dimensionamento illuminotecnico. </b>
 </p>
