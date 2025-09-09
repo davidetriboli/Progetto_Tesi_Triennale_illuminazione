@@ -51,7 +51,7 @@ Struttura del sistema lineare implementato.
   <p style="font-size: 1.4em;"> <b>   2. Metodo dei Minimi Quadrati (illuminazione uniforme): verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (uniforme).</b></p> 
   <p style="font-size: 1.4em;"> <b>   3. Metodo dei Minimi Quadrati (illuminazione reale): verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (reale).</b></p>
 <p align="justify">
-- <b> Utilizzo di GCP: Utilizzo dei Punti di Controllo a Terra (GCP), nel sistema di riferimento locale di 3DF Zephyr, per la definizione dei perimetri e dei centroidi delle sottosuperfici in cui è stata divisa la mesh iniziale; per la definizione delle coordinate 3D e delle normali dei punti luce. Informazioni geometriche essenziali per il dimensionamento illuminotecnico. </b>
+- <b> Utilizzo di GCP:</b> Utilizzo dei Punti di Controllo a Terra (GCP), nel sistema di riferimento locale di 3DF Zephyr, per la definizione dei perimetri e dei centroidi delle sottosuperfici in cui è stata divisa la mesh iniziale; per la definizione delle coordinate 3D e delle normali dei punti luce. Informazioni geometriche essenziali per il dimensionamento illuminotecnico. 
 </p>
 
 <h2>Metodologia</h2>
