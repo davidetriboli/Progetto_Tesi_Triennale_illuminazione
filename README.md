@@ -46,15 +46,13 @@ Struttura del sistema lineare implementato.
 
 - <b> Applicazione dei metodi numerici: </b> utilizzare il metodo di Gauss-Seidel e quello dei minimi quadrati per la risoluzione del sistema lineare. 
 
+-  <b> Utilizzo di GCP:</b> Utilizzo dei Punti di Controllo a Terra (GCP), nel sistema di riferimento locale di 3DF Zephyr, per la definizione dei perimetri e dei centroidi delle sottosuperfici in cui è stata divisa la mesh iniziale; per la definizione delle coordinate 3D e delle normali dei punti luce. Informazioni geometriche essenziali per il dimensionamento illuminotecnico.
+
 - <b> Analisi dei risultati: </b>
   <p style="font-size: 1.4em;"> <b>   1. Metodo di GS: verificare la coerenza tra le potenze calcolate e quelle presenti nel datasheet punto luce.</b> </p> 
   <p style="font-size: 1.4em;"> <b>   2. Metodo dei Minimi Quadrati (illuminazione uniforme): verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (uniforme).</b></p> 
   <p style="font-size: 1.4em;"> <b>   3. Metodo dei Minimi Quadrati (illuminazione reale): verificare la coerenza tra gli illuminamenti calcolati e quelli imposti (reale).</b></p>
   
-<p align="justify">
--  <b> Utilizzo di GCP:</b> Utilizzo dei Punti di Controllo a Terra (GCP), nel sistema di riferimento locale di 3DF Zephyr, per la definizione dei perimetri e dei centroidi delle sottosuperfici in cui è stata divisa la mesh iniziale; per la definizione delle coordinate 3D e delle normali dei punti luce. Informazioni geometriche essenziali per il dimensionamento illuminotecnico. 
-</p>
-
 <h2>Metodologia</h2>
 
 <p align="justify">
