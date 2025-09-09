@@ -111,9 +111,10 @@ Grafico degli illuminamenti - Metodo ai minimi quadrati 1
 
 </p>
 
+<p align="justify">
 Grafico degli illuminamenti - Metodo ai minimi quadrati 2
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/0f04f1df-ebbc-4a6b-8f9a-1356fa26be88" />
-
+</p>
 <p align="justify">
 
 **Conclusione:**  
