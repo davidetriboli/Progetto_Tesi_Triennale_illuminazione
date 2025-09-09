@@ -68,11 +68,10 @@ Il modello in sintesi:
 x rappresenta il vettore delle potenze in Watt necessarie per ciascun faretto.</li>
 <li>Il vettore 
 b (generico) rappresenta il vettore degli illuminamenti imposti sulle diverse superfici. In particolare: </li> 
-<li>Il vettore
+<li> 1. Il vettore
 b1 rappresenta gli illuminamenti imposti nelle condizioni di illuminazione uniforme della superficie del monumento (circa 30 lux). </li> 
-<li>Il vettore
+<li> 2. Il vettore
 b2 rappresenta gli illuminamenti imposti nelle condizioni di illuminazione reale della superficie del monumento (variabili nell'intervallo 7-40 lux). /li> 
-</ul>
 
 <h3>Metodo di Gauss-Seidel</h3>
 
