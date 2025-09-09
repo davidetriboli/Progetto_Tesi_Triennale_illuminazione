@@ -12,7 +12,7 @@ Questo progetto è stato sviluppato in Jupyter Notebook e può essere eseguito f
    - Controlla che sia selezionato un runtime Python 3 (menù `Ambiente di esecuzione` → `Modifica tipo di ambiente di esecuzione` → `Python 3`).
    - Non è necessario installare librerie aggiuntive: Colab include già `numpy`, `scipy` e `matplotlib`.
 
-3. Esegui le celle.
+3. Esegui le celle in ordine dall'alto verso il basso.
 
 ## Output attesi
 - Calcolo delle potenze dei faretti.
@@ -22,4 +22,5 @@ Questo progetto è stato sviluppato in Jupyter Notebook e può essere eseguito f
 ---
 
 📌 **Nota**: il notebook utilizza dati geometrici (centroidi, normali) ottenuti da fotogrammetria. Se vuoi modificare la mesh o aggiungere nuovi faretti/superfici, aggiorna i file di input e rilancia il notebook.
+
 
