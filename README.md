@@ -24,8 +24,11 @@ La repository è organizzata come segue:
 
 Progetto_Tesi_Triennale_illuminazione/
 ├─ README.md
+
 ├─ LICENSE
+
 ├─ docs/
+
 │  └─ InfoDettaglio.docx
 ├─ assets/
 │  ├─ modello_3d.png
