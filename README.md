@@ -127,4 +127,4 @@ Progetto_Tesi_Triennale_illuminazione/
 ├─ <a href="LICENSE.md"> License</a>: Licenza d’uso del progetto.  
 ├─ Dettaglio/  
 │  └─ <a href="Dettagli_progetto.md"> Dettagli_progetto</a>: Documento descrittivo tecnico-metodologico.  
-└─ <a href="COME_ESEGUIRE.md"> COME_ESEGUIRE</a>: Guida per l'esecuzione su Colab
+└─ <a href="COME_ESEGUIRE.md"> COME_ESEGUIRE</a>: Guida per l'esecuzione su Colab.
