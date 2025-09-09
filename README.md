@@ -1,4 +1,4 @@
-<h1> Progetto Tesi Triennale – Analisi numerica per il dimensionamento illuminotecnico di un Monumento Storico </h1> 
+<h2> Progetto Tesi Triennale – Analisi numerica per il dimensionamento illuminotecnico di un Monumento Storico </h2> 
 
 ![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
