@@ -4,7 +4,7 @@
 Questo progetto, sviluppato come parte della tesi di Laurea Triennale a carattere propedeutico, si concentra sull'implementazione di un modello numerico per lo studio dell'illuminazione artificiale esterna applicato alla conservazione e valorizzazione della Rocca di Sparafucile a Mantova.
 </p>
 <p align="justify">
-L’intero dimensionamento si basa su un modello 3D fotogrammetrico della Rocca, ottenuto tramite rilievo con drone DJI da me eseguito (drone prestato dal Prof. Sala) e processato in 3DF Zephyr
+L’intero dimensionamento si basa su un modello 3D fotogrammetrico della Rocca, ottenuto tramite rilievo con drone DJI da me eseguito (drone prestato dal Prof. Sala) e processato in 3DF Zephyr.
 </p>
 <p align="justify">
 L'intero modello matematico è stato ideato e sviluppato in modo autonomo, senza l'ausilio di software di illuminotecnica dedicati. L'obiettivo è stato dimostrare come i principi del calcolo numerico possano essere applicati a un problema ingegneristico complesso, partendo da zero e arrivando a una soluzione valida e verificabile. Questo lavoro getta le basi per future analisi in ambito di laurea magistrale, con particolare riferimento all’utilizzo della mesh 3D per analisi FEM finalizzate al restauro.
