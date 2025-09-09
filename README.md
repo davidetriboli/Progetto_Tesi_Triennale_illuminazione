@@ -82,7 +82,7 @@ b2 rappresenta gli illuminamenti imposti nelle condizioni di illuminazione reale
 <h3>Metodo dei Minimi Quadrati</h3>
 
 <p align="justify">
-Successivamente, per superare i limiti di Gauss-Seidel, è stato applicato l'approccio ai minimi quadrati. Questo ha permesso di determinare le potenze per 16 faretti imponendo un illuminamento desiderato differenziato su 22 superfici. In seguito, la valutazione della soluzione ha mostrato che gli illuminamenti calcolati erano coerenti con quelli reali richiesti, confermando la bontà del modello numerico.
+Successivamente, per superare i limiti di Gauss-Seidel, è stato applicato l'approccio ai minimi quadrati permettendo l'esplorazione del caso in cui non tutti i punti luce erano accesi. Questo ha permesso di determinare le potenze per 16 faretti (quelli effettivamente accesi sul sito) imponendo un illuminamento desiderato differenziato su 22 superfici. In seguito, la valutazione della soluzione ha mostrato che gli illuminamenti calcolati erano coerenti con quelli reali richiesti, confermando la bontà del modello numerico.
 </p>
 
 <h2>Conclusioni</h2>
