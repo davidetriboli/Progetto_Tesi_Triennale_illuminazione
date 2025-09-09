@@ -88,32 +88,33 @@ Successivamente, per superare i limiti di Gauss-Seidel, è stato applicato l'app
 <h2>Conclusioni</h2>
 
 <p align="justify">
-Di seguito sono riportati i principali risultati ottenuti con i due metodi di calcolo delle potenze dei faretti:
+Di seguito sono riportati i principali risultati ottenuti con i due metodi di calcolo:
 
 1. **Metodo di Gauss-Seidel (GS)**  
    - Applicato con il vettore **b1** (illuminazione uniforme su tutte le superfici).  
    - I risultati delle potenze calcolate si sono rivelati soddisfacenti: confrontando i valori con quelli dei datasheet dei faretti, cinque potenze rientrano nei range nominali previsti.  
-   - [Vedi grafico 1: potenze calcolate con GS]  
+
+</p>
+
+<p align="justify">
+2. Metodo ai Minimi Quadrati (MQ) <b>Applicato con due scenari</b>:  
+  - b1 (illuminazione uniforme): le potenze calcolate mostrano valori molto elevati o negativi, indicando che il metodo tende ad innalzare eccessivamente i faretti distanti e a                                                  ridurre (anche negativamente) quelli vicini. Questo evidenzia che il caso uniforme non è realistico per il dimensionamento pratico.  
+    - Vedi <a href="[Dimensionamento_illuminazioneEsterna_RoccaDiSparafucile_Mantova.ipynb](https://github.com/user-attachments/assets/370b4c3a-707a-451f-a18e-0434ebb2e01c)"> grafico 1: Confronto illuminamenti calcolati e imposti con MQ, caso uniforme b1.</a>   
+
+    
+  - b2 (illuminazione reale): le potenze calcolate risultano coerenti e fisicamente interpretabili, con valori positivi per tutti i faretti e rispettando i range nominali dei  datasheet.                                   Gli illuminamenti ottenuti sulle superfici della mesh sono vicini a quelli desiderati.  
+   - Vedi grafico 2: Confronto illuminamenti calcolati e imposti con MQ, caso reale b2.
 
 </p>
 
 Grafico degli illuminamenti - Metodo ai minimi quadrati 1
+
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/370b4c3a-707a-451f-a18e-0434ebb2e01c" />
 
-<p align="justify">
-
-2. **Metodo ai Minimi Quadrati (MQ)**  
-   - Applicato con due scenari:  
-     - **b1 (illuminazione uniforme)**: le potenze calcolate mostrano valori molto elevati o negativi, indicando che il metodo tende ad innalzare eccessivamente i faretti distanti e a ridurre (anche negativamente) quelli vicini. Questo evidenzia che il caso uniforme non è realistico per il dimensionamento pratico.
-     - - [Vedi grafico 2: potenze e illuminamenti calcolati con MQ, caso reale b2]  
-     - **b2 (illuminazione reale)**: le potenze calcolate risultano coerenti e fisicamente interpretabili, con valori positivi per tutti i faretti e rispettando i range nominali dei datasheet. Gli illuminamenti ottenuti sulle superfici della mesh sono vicini a quelli desiderati.  
-   - [Vedi grafico 2: potenze e illuminamenti calcolati con MQ, caso reale b2]  
-
-</p>
-
-<p align="justify">
 Grafico degli illuminamenti - Metodo ai minimi quadrati 2
+
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/0f04f1df-ebbc-4a6b-8f9a-1356fa26be88" />
+
 </p>
 <p align="justify">
 
