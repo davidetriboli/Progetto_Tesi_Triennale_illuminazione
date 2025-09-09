@@ -1,4 +1,4 @@
-<p align="justify"> 
+<div style="text-align: justify;">
 Questa sezione illustra i principi fisici, gli assunti matematici e le scelte implementative alla base del progetto.
 
 1. **Principi Fisici e Modello di Illuminazione:** Il modello si basa sulla **legge di Lambert** e presuppone superfici lambertiane, che emettono luce uniformemente in tutte le direzioni. L'illuminamento **()** fornito da una sorgente puntiforme è proporzionale al coseno dell'angolo formato tra il vettore luce e la normale della superficie **),** e inversamente proporzionale al quadrato della distanza tra la sorgente e il centroide **().**
@@ -9,4 +9,4 @@ Questa sezione illustra i principi fisici, gli assunti matematici e le scelte im
 
 6. **Limiti ed Efficienza del Metodo Numerico:** Il metodo richiede che il numero di superfici selezionate nella mesh iniziale sia uguale al numero di faretti scelti, affinché la matrice A sia quadrata. Questo approccio numerico, pur essendo un dimensionamento basato su geometria e ottica, fornisce un ordine di grandezza delle potenze necessarie per l'illuminazione, con un'ottica di risparmio energetico. I calcoli sono resi possibili dalla scalatura del modello alle sue dimensioni reali.
 
-</p> 
+</div>
