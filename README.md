@@ -15,7 +15,7 @@ Per un'analisi approfondita del modello numerico, della metodologia e dei contri
 
 <h2>Struttura del repository</h2>
 
-- <a href="InfoDettaglio.docx"> InfoDettaglio</a>: Documento descrittivo tecnico-metodologico.
+- <a href="Dettagli_progetto.md"> Dettagli_progetto</a>: Documento descrittivo tecnico-metodologico.
 - <a href="LICENSE"> License</a>: Licenza d’uso del progetto.
 - <a href="README.md"> Readme</a>: Questa descrizione.
 - <a href="Dimensionamento_illuminazioneEsterna_RoccaDiSparafucile_Mantova.ipynb"> Codice</a>: Codice impiegato per il dimensionamento.
