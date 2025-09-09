@@ -1,17 +1,19 @@
+
+
+<h1> Questa sezione illustra i principi fisici, gli assunti matematici e le scelte implementative alla base del progetto. </h1>
+
 <div align="justify">
 
-Questa sezione illustra i principi fisici, gli assunti matematici e le scelte implementative alla base del progetto.
-
 1. **Principi Fisici e Modello di Illuminazione:**  
-   Il modello si basa sulla legge di Lambert e presuppone superfici lambertiane, che emettono luce uniformemente in tutte le direzioni. L'illuminamento Lj fornito da una sorgente puntiforme j su una superficie i è dato da:
+   Il modello si basa sulla legge di Lambert e presuppone superfici lambertiane, che emettono luce uniformemente in tutte le direzioni. L'illuminamento Lj fornito da una sorgente puntiforme j su una superficie i     è dato da:
    
-Lj = Ij * cos(θji) / dji^2
+   Lj = Ij * cos(θji) / dji^2
 
-dove:
-- Lj è l'illuminamento fornito da una sorgente puntiforme j,
-- Ij è l'intensità della sorgente luminosa j,
-- θji è l'angolo tra il vettore luce e la normale della superficie i,  
-- dji è la distanza tra la sorgente j e il centroide della superficie i.
+   dove:
+   - Lj è l'illuminamento fornito da una sorgente puntiforme j,
+   - Ij è l'intensità della sorgente luminosa j,
+   - θji è l'angolo tra il vettore luce e la normale della superficie i,  
+   - dji è la distanza tra la sorgente j e il centroide della superficie i.
 
 2. **Risoluzione del Sistema Lineare (Gauss-Seidel):**  
 Il sistema lineare, rappresentato dalla matrice M = (D − E), viene risolto utilizzando il metodo di Gauss-Seidel. Per la convergenza del metodo, la matrice M deve essere non singolare, il che implica che la diagonale della matrice A associata non contenga elementi nulli. La condizione cruciale per la convergenza è che il raggio spettrale della matrice di iterazione B sia strettamente minore di 1.
@@ -29,3 +31,4 @@ Il metodo per l'analisi dell'illuminamento si basa sulla necessità di mantenere
 Il metodo richiede che il numero di superfici selezionate nella mesh iniziale sia uguale al numero di faretti scelti, affinché la matrice A sia quadrata. Questo approccio numerico, pur essendo un dimensionamento basato su geometria e ottica, fornisce un ordine di grandezza delle potenze necessarie per l'illuminazione, con un'ottica di risparmio energetico. I calcoli sono resi possibili dalla scalatura del modello alle sue dimensioni reali.
 
 </div>
+
