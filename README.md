@@ -22,17 +22,15 @@ La repository è organizzata come segue:
 - <a href="COME_ESEGUIRE.md"> COME_ESEGUIRE</a>: Guida per l'esecuzione su Colab.
 ## Struttura della repository
 
-Progetto_Tesi_Triennale_illuminazione/
+Progetto_Tesi_Triennale_illuminazione/  
 ├─ README.md  
 ├─ LICENSE  
-
-├─ docs/
-
-│  └─ InfoDettaglio.docx
-├─ assets/
-│  ├─ modello_3d.png
-│  └─ grafici_mq1.png
-└─ COME_ESEGUIRE.md
+├─ docs/  
+│  └─ InfoDettaglio.docx  
+├─ assets/  
+│  ├─ modello_3d.png  
+│  └─ grafici_mq1.png  
+└─ COME_ESEGUIRE.md  
 
 
 <h2>Immagini Rappresentative</h2>
