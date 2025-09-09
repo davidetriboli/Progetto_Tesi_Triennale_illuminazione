@@ -144,7 +144,7 @@ Prof.ssa Anna Scotti: Per l’importante supporto metodologico sul metodo dei mi
 See <a href="LICENSE.md"> License. </a>
 
 <h2>Struttura del repository</h2>
-La repository è organizzata come segue:
+La repository è organizzata come segue:  
 
 Progetto_Tesi_Triennale_illuminazione/  
 ├─ <a href="Dimensionamento_illuminazioneEsterna_RoccaDiSparafucile_Mantova.ipynb"> Codice</a>: Codice impiegato per il dimensionamento.  
