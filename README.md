@@ -16,7 +16,7 @@ Per un'analisi approfondita del modello numerico, della metodologia e dei contri
 <h2>Struttura del repository</h2>
 
 - <a href="Dettagli_progetto.md"> Dettagli_progetto</a>: Documento descrittivo tecnico-metodologico.
-- <a href="LICENSE"> License</a>: Licenza d’uso del progetto.
+- <a href="LICENSE.md"> License</a>: Licenza d’uso del progetto.
 - <a href="README.md"> Readme</a>: Questa descrizione.
 - <a href="Dimensionamento_illuminazioneEsterna_RoccaDiSparafucile_Mantova.ipynb"> Codice</a>: Codice impiegato per il dimensionamento.
 
@@ -123,4 +123,4 @@ Prof.ssa Anna Scotti: Per l’importante supporto metodologico sul metodo dei mi
 
 <h2>License</h2>
 
-See <a href="LICENSE"> License. </a>
+See <a href="LICENSE.md"> License. </a>
