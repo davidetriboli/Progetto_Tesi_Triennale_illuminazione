@@ -1,4 +1,4 @@
-# Progetto Tesi Triennale – Analisi numerica e ottimizzazione illuminotecnica della Rocchetta di Sparafucile
+<h1> Progetto Tesi Triennale – Analisi numerica e ottimizzazione illuminotecnica della Rocchetta di Sparafucile </h1> 
 
 ![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
