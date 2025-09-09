@@ -14,11 +14,21 @@ Per un'analisi approfondita del modello numerico, della metodologia e dei contri
 </p>
 
 <h2>Struttura del repository</h2>
-
+La repository è organizzata come segue:
 - <a href="Dettagli_progetto.md"> Dettagli_progetto</a>: Documento descrittivo tecnico-metodologico.
 - <a href="LICENSE.md"> License</a>: Licenza d’uso del progetto.
 - <a href="README.md"> Readme</a>: Questa descrizione.
 - <a href="Dimensionamento_illuminazioneEsterna_RoccaDiSparafucile_Mantova.ipynb"> Codice</a>: Codice impiegato per il dimensionamento.
+
+Progetto_Tesi_Triennale_illuminazione/
+├─ README.md
+├─ LICENSE
+├─ docs/ # Documentazione tecnica
+│ └─ InfoDettaglio.docx
+├─ assets/ # Immagini e grafici
+│ ├─ modello_3d.png
+│ └─ grafici_mq1.png
+└─ COME_ESEGUIRE.md # Guida per l'esecuzione su Colab
 
 <h2>Immagini Rappresentative</h2>
 
