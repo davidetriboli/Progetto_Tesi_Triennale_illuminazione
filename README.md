@@ -126,5 +126,5 @@ Progetto_Tesi_Triennale_illuminazione/
 ├─ <a href="README.md"> Readme</a>: Questa descrizione.  
 ├─ <a href="LICENSE.md"> License</a>: Licenza d’uso del progetto.  
 ├─ Dettaglio/  
-│  └─ <a href="Dettagli_progetto.md"> Dettagli_progetto</a>: Documento descrittivo tecnico-metodologico. 
+│  └─ <a href="Dettagli_progetto.md"> Dettagli_progetto</a>: Documento descrittivo tecnico-metodologico.  
 └─ COME_ESEGUIRE.md  
