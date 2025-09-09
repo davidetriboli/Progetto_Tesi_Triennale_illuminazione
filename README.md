@@ -87,6 +87,25 @@ Successivamente, per superare i limiti di Gauss-Seidel, è stato applicato l'app
 
 <h2>Conclusioni</h2>
 
+Di seguito sono riportati i principali risultati ottenuti con i due metodi di calcolo delle potenze dei faretti:
+
+1. **Metodo di Gauss-Seidel (GS)**  
+   - Applicato con il vettore **b1** (illuminazione uniforme su tutte le superfici).  
+   - I risultati delle potenze calcolate si sono rivelati soddisfacenti: confrontando i valori con quelli dei datasheet dei faretti, cinque potenze rientrano nei range nominali previsti.  
+   - [Vedi grafico 1: potenze calcolate con GS]  
+
+2. **Metodo ai Minimi Quadrati (MQ)**  
+   - Applicato con due scenari:  
+     - **b1 (illuminazione uniforme)**: le potenze calcolate mostrano valori molto elevati o negativi, indicando che il metodo tende ad innalzare eccessivamente i faretti distanti e a ridurre (anche negativamente) quelli vicini. Questo evidenzia che il caso uniforme non è realistico per il dimensionamento pratico.
+     - - [Vedi grafico 2: potenze e illuminamenti calcolati con MQ, caso reale b2]  
+     - **b2 (illuminazione reale)**: le potenze calcolate risultano coerenti e fisicamente interpretabili, con valori positivi per tutti i faretti e rispettando i range nominali dei datasheet. Gli illuminamenti ottenuti sulle superfici della mesh sono vicini a quelli desiderati.  
+   - [Vedi grafico 2: potenze e illuminamenti calcolati con MQ, caso reale b2]  
+
+**Conclusione:**  
+- Il metodo di **Gauss-Seidel** è efficace per verificare le potenze quando si vuole una distribuzione uniforme (vettore b1).  
+- Il metodo **ai Minimi Quadrati** fornisce risultati soddisfacenti sia in termini di potenze sia di illuminamenti quando si considera una distribuzione **reale** (vettore b2).  
+- Il confronto dei due grafici mostra chiaramente come la scelta dell’illuminazione target influisca sulla validità delle soluzioni numeriche.
+
 <p align="justify">
 Di seguito le immagini di output fondamentali del progetto, che riassumono i risultati chiave dell'analisi illuminotecnica.
 
