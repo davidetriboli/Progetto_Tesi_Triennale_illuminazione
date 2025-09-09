@@ -8,12 +8,16 @@ Chiunque è libero di usare, modificare e ridistribuire il codice, a condizione 
 </div>
 
 # Documentazione e Contenuti non Software
+<div align="justify">
 La documentazione, inclusi testi e spiegazioni, è rilasciata sotto la licenza Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) (https://creativecommons.org/licenses/by-nc/4.0/). È permesso l’uso, la condivisione e la modifica non commerciale, con attribuzione.
+</div>
 
 # Diritti sulle Immagini
+<div align="justify">
 Le immagini del monumento presenti in questo repository sono di proprietà del Comune di Mantova e sono utilizzate esclusivamente per scopi di ricerca e studio accademico, conformemente al Regolamento del Comune di Mantova per l'uso dei beni culturali, che prevede la libera riproduzione senza scopo di lucro per tali finalità. È vietato l'uso commerciale delle immagini senza autorizzazione esplicita e si richiede la citazione della fonte in caso di utilizzo.
-
+</div>
 Chiunque utilizzi materiale contenuto in questo repository è tenuto a rispettare le licenze sopra indicate.
+
 
 
 
