@@ -98,10 +98,10 @@ Di seguito sono riportati i principali risultati ottenuti con i due metodi di ca
    Applicato con due scenari</b>:
    
   - b1 (illuminazione uniforme): le potenze calcolate mostrano valori molto elevati o negativi, indicando che il metodo tende ad innalzare eccessivamente i faretti distanti e a                                                ridurre (anche negativamente) quelli vicini. Questo evidenzia che il caso uniforme non è realistico per il dimensionamento pratico.  
-    - Vedi <a href="[https://github.com/user-attachments/assets/370b4c3a-707a-451f-a18e-0434ebb2e01c](https://github.com/user-attachments/assets/370b4c3a-707a-451f-a18e-0434ebb2e01c)"> grafico 1</a>: Confronto illuminamenti calcolati e imposti con MQ, caso uniforme b1.  
+    - Vedi **grafico 1**: Confronto illuminamenti calcolati e imposti con MQ, caso uniforme b1.  
 
   - b2 (illuminazione reale): le potenze calcolate risultano coerenti e fisicamente interpretabili, con valori positivi per tutti i faretti e rispettando i range nominali dei  datasheet.                                   Gli illuminamenti ottenuti sulle superfici della mesh sono vicini a quelli desiderati.  
-    - Vedi <a href="https://github.com/user-attachments/assets/0f04f1df-ebbc-4a6b-8f9a-1356fa26be88"> grafico 2</a>: Confronto illuminamenti calcolati e imposti con MQ, caso reale b2.   
+    - Vedi **grafico 2**: Confronto illuminamenti calcolati e imposti con MQ, caso reale b2.   
 
 </p>
 
