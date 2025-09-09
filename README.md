@@ -65,10 +65,12 @@ Il modello in sintesi:
 <ul>
 <li>La matrice A (lux/Watt) descrive l'effetto in termini di illuminamento di ciascun faretto su ogni punto di interesse della superficie del monumento. Ogni punto di interesse è rappresentato dal centroide della sotto-superficie.</li>
 <li>Il vettore 
-x rappresenta la potenza in Watt necessaria per ciascun faretto.</li>
+x rappresenta il vettore delle potenze in Watt necessarie per ciascun faretto.</li>
 <li>Il vettore 
-b rappresenta gli illuminamenti desiderati sulle diverse superfici.</li>
+b (generico) rappresenta il vettore degli illuminamenti imposti sulle diverse superfici.</li>
 </ul>
+- b1 rappresenta gli illuminamenti imposti nelle condizioni di illuminazione uniforme della superficie del monumento (circa 30 lux);
+- b2 rappresenta gli illuminamenti imposti nelle condizioni di illuminazione reale della superficie del monumento (variabili nell'intervallo 7-40 lux).
 
 <h3>Metodo di Gauss-Seidel</h3>
 
