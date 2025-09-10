@@ -14,7 +14,7 @@ Questo progetto, sviluppato come parte della tesi di Laurea Triennale a caratter
 L’intero dimensionamento si basa su un modello 3D fotogrammetrico della Rocca, ottenuto tramite rilievo con drone DJI da me eseguito (drone prestato dal Prof. Sala) e processato in 3DF Zephyr.
 </p>
 <p align="justify">
-L'intero modello matematico è stato ideato e sviluppato in modo autonomo, senza l'ausilio di software di illuminotecnica dedicati. L'obiettivo è stato dimostrare come i principi del calcolo numerico possano essere applicati a un problema ingegneristico complesso, partendo da zero e arrivando a una soluzione valida e verificabile. Questo lavoro getta le basi per future analisi in ambito di laurea magistrale, con particolare riferimento all’utilizzo della mesh 3D per analisi FEM finalizzate al restauro.
+Il modello matematico è stato sviluppato senza l'ausilio di software di illuminotecnica dedicati. L'obiettivo è stato dimostrare come i principi del calcolo numerico possano essere applicati a un problema ingegneristico complesso, partendo da zero e arrivando a una soluzione valida e verificabile. Questo lavoro getta le basi per future analisi in ambito di laurea magistrale, con particolare riferimento all’utilizzo della mesh 3D per analisi FEM finalizzate al restauro.
 </p>
 <p align="justify">
 Per un'analisi approfondita del modello numerico, della metodologia e dei contributi, fare riferimento al documento <a href="Dettagli_progetto.md"> Dettaglio_progetto</a>.
