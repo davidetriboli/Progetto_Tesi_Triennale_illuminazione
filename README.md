@@ -70,7 +70,7 @@ Il dimensionamento illuminotecnico è stato risolto come un sistema lineare Ax =
 <p align="justify">
 Il modello in sintesi:
 </p>
-<ul>
+<ul align="justify">
 <li>La matrice A (lux/Watt) descrive l'effetto in termini di illuminamento di ciascun faretto su ogni punto di interesse della superficie del monumento. Ogni punto di interesse è rappresentato dal centroide della sotto-superficie.</li>
 <li>Il vettore 
 x rappresenta il vettore delle potenze in Watt necessarie per ciascun faretto.</li>
