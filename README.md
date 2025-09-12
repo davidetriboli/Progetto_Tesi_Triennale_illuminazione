@@ -1,7 +1,7 @@
 <h1 align="justify"> Dimensionamento numerico dell'illuminazione di un Monumento Storico </h1> 
 
 ![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange)
-![License]((https://www.gnu.org/licenses/gpl-3.0.en.html))
+![License](https://www.gnu.org/licenses/gpl-3.0.en.html)
 ![GitHub last commit](https://img.shields.io/github/last-commit/davidetriboli/Progetto_Tesi_Triennale_illuminazione)
 
 _Last revision: 2025-09-09_
